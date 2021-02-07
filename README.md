@@ -11,3 +11,8 @@
 - Third item
 
 *Tools: scikit-learn, Pandas, Seaborn, Matplotlib*
+
+### Natural Language Processing
+- First item
+- Second item
+- Third item

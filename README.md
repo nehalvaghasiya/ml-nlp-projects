@@ -1,11 +1,11 @@
-# Data Science Portfolio
+# **Data Science Portfolio**
 ---
 
 #### Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of iPython Notebooks.
 
-## Contents
+## **Contents**
 ---
-### Machine Learning
+### **Machine Learning**
 - #### **Linear Regression:** fnj
 - #### **Logistic Regression:** 
 - #### **Decision-Trees-and-Random-Forests:** 
@@ -17,7 +17,7 @@
 
 *Tools: scikit-learn, Pandas, Seaborn, Matplotlib*
 
-### Natural Language Processing
+### **Natural Language Processing**
 - #### **Spam detection:**
 - #### **Text classification:**
 - #### **Sentiment analysis:**

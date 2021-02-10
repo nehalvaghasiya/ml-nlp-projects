@@ -6,13 +6,13 @@
 ## **Contents**
 ---
 ### **Machine Learning**
-- #### **Linear Regression:** fnj
+- #### **Linear Regression:** 
 - #### **Logistic Regression:** 
-- #### **Decision-Trees-and-Random-Forests:** 
-- #### **16-Support-Vector-Machines:** 
-- #### **17-K-Means-Clustering:** 
-- #### **18-Principal-Component-Analysis:** 
-- #### **19-Recommender-Systems:** 
+- #### **Decision Trees and Random Forests:** 
+- #### **Support Vector Machines:** 
+- #### **K Means Clustering:** 
+- #### **Principal Component Analysis:** 
+- #### **Recommender Systems:** 
 
 
 *Tools: scikit-learn, Pandas, Seaborn, Matplotlib*

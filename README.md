@@ -6,13 +6,23 @@
 ## Contents
 ---
 ### Machine Learning
-- First item
-- Second item
-- Third item
+- #### **Linear Regression:** fnj
+- #### **Logistic Regression:** 
+- #### **Decision-Trees-and-Random-Forests:** 
+- #### **16-Support-Vector-Machines:** 
+- #### **17-K-Means-Clustering:** 
+- #### **18-Principal-Component-Analysis:** 
+- #### **19-Recommender-Systems:** 
+
 
 *Tools: scikit-learn, Pandas, Seaborn, Matplotlib*
 
 ### Natural Language Processing
-- First item
-- Second item
-- Third item
+- #### **Spam detection:**
+- #### **Text classification:**
+- #### **Sentiment analysis:**
+- #### **Autocorrection:**
+- #### **Autocompletion:**
+- #### **Sentiment analysis with Deep Neural Network:**
+- #### **Named Entity Recognition:**
+- #### **Identificarion of duplicate Questions:**

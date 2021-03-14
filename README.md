@@ -26,3 +26,7 @@
 - #### **Sentiment analysis with Deep Neural Network:**
 - #### **Named Entity Recognition:**
 - #### **Identificarion of duplicate Questions:**
+- #### **Neural Machine Translation:**
+- #### **Text Summarization:**
+- #### **Question answering:**
+- #### **Chatbot:**

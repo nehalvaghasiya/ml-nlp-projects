@@ -16,7 +16,7 @@ You can click the Preview link to take a look at your changes.
 ## **Contents**
 ---
 ### **Machine Learning**
-- #### **[Linear Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Linear%20Regression)** 
+- #### **[Linear Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Linear%20Regression)**  A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Linear%20Regression/CO2%20emission%20prediction)  [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Linear%20Regression/House%20Price%20Prediction)
 - #### **[Logistic Regression:](http://github.com)** 
 - #### **[Decision Trees and Random Forests:](http://github.com)** 
 - #### **[Support Vector Machines:](http://github.com)** 

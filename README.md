@@ -27,6 +27,21 @@ You can click the Preview link to take a look at your changes.
 
 *Tools: scikit-learn, Pandas, Seaborn, Matplotlib*
 
+
+### **Deep Learning**
+- #### **[Image Classification:](http://github.com)**
+- #### **[Cats vs Dogs:](http://github.com)**
+- #### **[Dog'S Breed Identification:](http://github.com)**
+- #### **[MNIST Digit Recognition:](http://github.com)**
+- #### **[Traffic sign classification:](http://github.com)**
+- #### **[Image Captioning:](http://github.com)**
+- #### **[Wine quality prediction:](http://github.com)**
+- #### **[Identificarion of duplicate Questions:](http://github.com)**
+- #### **[Neural Machine Translation:](http://github.com)**
+- #### **[Text Summarization:](http://github.com)**
+- #### **[Question answering:](http://github.com)**
+- #### **[Chatbot:](http://github.com)**
+
 ### **Natural Language Processing**
 - #### **[Spam detection:](http://github.com)**
 - #### **[Text classification:](http://github.com)**

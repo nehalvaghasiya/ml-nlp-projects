@@ -1,33 +1,4 @@
 
-# H1
-## H2
-### H3
-
-**bold text**
-
-*italicized text*
-
-> blockquote
-> 
-- First item
-- Second item
-- Third item
-
-[title](https://www.example.com)
-
-![alt text](image.jpg)
-
-### My Great Heading {#custom-id}
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-term
-: definition
-
-
-
 
 # CO2 emission prediction
 ## Table of Content
@@ -68,7 +39,7 @@ term
 `!pip install flask-ngrok`
 
 `from flask_ngrok import run_with_ngrok`
-``
+
 ## Directory Tree
 ```
 ├── static
@@ -85,24 +56,7 @@ term
 └── co2_model.pkl
 ````
 
-```
-├── app 
-│   ├── __init__.py
-│   ├── main.py
-│   ├── model
-│   ├── static
-│   └── templates
-├── config
-│   ├── __init__.py
-├── processing
-│   ├── __init__.py
-├── requirements.txt
-├── runtime.txt
-├── LICENSE
-├── Procfile
-├── README.md
-└── wsgi.py
-````
+
 
 ## Bug / Feature Request
 - If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new) by including your search query and the expected result.

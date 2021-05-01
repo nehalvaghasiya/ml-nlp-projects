@@ -24,6 +24,13 @@ You can click the Preview link to take a look at your changes.
 > > - #### **[Random Forest Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression)**
 
 - #### **[Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification)**
+> > - #### **[Logistic Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Logistic%20Regression)**
+> > - #### **[Naive Bayes:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Naive%20Bayes)**
+> > - #### **[Support Vector Machine (SVM):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Support%20Vector%20Machine%20(SVM))**
+> > - #### **[Kernel Support Vector Machine (K-SVM):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Kernel%20SVM)**
+> > - #### **[Decision Tree Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Decision%20Tree%20Classification)**
+> > - #### **[Random Forest Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression)**
+> > - #### **[K-Nearest Neighbors (K-NN):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression)**
 
 - #### **[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering)**
 

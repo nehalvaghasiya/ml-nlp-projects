@@ -23,7 +23,7 @@
 - This project is divided into two part:
 
 > 1. Training a Linear regression model.
-> 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok.
+> 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(used to make the server accessible outside the runtime globally on HTTP).
 
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
@@ -45,11 +45,12 @@
 │   ├── styles
 │   │   ├── style.css
 ├── templates
-
 │   ├── home.html
 ├── CO2 Emissions_Canada.csv
 ├── app.py
 ├── model.py
+├── co2 emission linear regression.ipynb
+├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
 ├── README.md

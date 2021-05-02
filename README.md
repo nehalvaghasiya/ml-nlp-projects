@@ -15,6 +15,38 @@ You can click the Preview link to take a look at your changes.
 
 ## **Contents**
 ---
+```
+├── [Machine Learning](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning)
+│   ├──[Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression)
+│   │   ├──[Linear Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression)
+│   │   ├──[Support Vector Regression (SVR):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR))
+│   │   ├──[Decision Tree Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression)
+│   │   └── style.css
+│   ├──[Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification)
+│   │   ├── style.css
+│   │   ├── style.css
+│   │   ├── style.css
+│   │   ├── style.css
+│   │   ├── style.css
+│   │   ├── style.css
+│   │   └── style.css
+│   └──[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering)
+│   │   ├── style.css
+│   │   └── style.css
+├── [Deep Learning](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning) 
+│   ├── __init__.py
+│   ├── main.py
+│   ├── model
+│   ├── static
+│   └── templates
+├── [Natural Language Processing](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing) 
+│   ├── __init__.py
+│   ├── main.py
+│   ├── model
+│   ├── static
+│   └── templates
+````
+---
 ### **Machine Learning**
 
 - #### **[Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression)**

@@ -29,17 +29,12 @@ You can click the Preview link to take a look at your changes.
 > > - #### **[Support Vector Machine (SVM):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Support%20Vector%20Machine%20(SVM))**
 > > - #### **[Kernel Support Vector Machine (K-SVM):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Kernel%20SVM)**
 > > - #### **[Decision Tree Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Decision%20Tree%20Classification)**
-> > - #### **[Random Forest Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression)**
-> > - #### **[K-Nearest Neighbors (K-NN):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression)**
+> > - #### **[Random Forest Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Random%20Forest%20Classification)**
+> > - #### **[K-Nearest Neighbors (K-NN):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/K-Nearest%20Neighbors%20(K-NN))**
 
 - #### **[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering)**
-
-- #### **[Logistic Regression:](http://github.com)** 
-- #### **[Decision Trees and Random Forests:](http://github.com)** 
-- #### **[Support Vector Machines:](http://github.com)** 
-- #### **[K Means Clustering:](http://github.com)** 
-- #### **[Principal Component Analysis:](http://github.com)** 
-- #### **[Recommender Systems:](http://github.com)** 
+> > - #### **[K means Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering/K%20means%20Clustering)**
+> > - #### **[Hierarchical Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering/Hierarchical%20Clustering)**
 
 
 *Tools: scikit-learn, Pandas, Seaborn, Matplotlib*

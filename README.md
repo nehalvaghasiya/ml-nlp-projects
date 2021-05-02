@@ -16,45 +16,43 @@ You can click the Preview link to take a look at your changes.
 ## **Contents**
 ---
 ```
-├── [Machine Learning](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning)
-│   ├──[Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression)
-│   │   ├──[Linear Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression)
-│   │   ├──[Support Vector Regression (SVR):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR))
-│   │   ├──[Decision Tree Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression)
-│   │   └── style.css
-│   ├── - [Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification)
-│   │   ├── style.css
-│   │   ├── style.css
-│   │   ├── style.css
-│   │   ├── style.css
-│   │   ├── style.css
-│   │   ├── style.css
-│   │   └── style.css
-│   └──[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering)
-│   │   ├── style.css
-│   │   └── style.css
-├── [Deep Learning](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning) 
-│   ├── __init__.py
-│   ├── main.py
-│   ├── model
-│   ├── static
-│   └── templates
-├── [Natural Language Processing](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing) 
-│   ├── __init__.py
-│   ├── main.py
-│   ├── model
-│   ├── static
-│   └── templates
+├── Machine Learning
+│   ├── Regression
+│   │   ├── Linear Regression
+│   │   ├── Support Vector Regression (SVR)
+│   │   ├── Decision Tree Regression
+│   │   └── Random Forest Regression:
+│   ├── Classification
+│   │   ├── Logistic Regression
+│   │   ├── Naive Bayes
+│   │   ├── Support Vector Machine (SVM)
+│   │   ├── Kernel Support Vector Machine (K-SVM)
+│   │   ├── Decision Tree Classification
+│   │   ├── Random Forest Classification
+│   │   └── K-Nearest Neighbors (K-NN)
+│   └── Clustering
+│   │   ├── K means Clustering
+│   │   └── Hierarchical Clustering
+├── Deep Learning
+│   ├── Image Classification
+│   ├── Cats vs Dogs
+│   ├── Dog'S Breed Identification
+│   ├── MNIST Digit Recognition
+│   ├── Traffic sign classification
+│   ├── Image Captioning
+│   └── 
+├── Natural Language Processing
+│   ├── Spam detection
+│   ├── Text classification
+│   ├── Sentiment analysis
+│   ├── Autocorrection
+│   ├── Autocompletion
+│   ├── Named Entity Recognition
+│   ├── Identificarion of duplicate Questions
+│   ├── Neural Machine Translation
+│   └── Text Summarization
 ````
-[boo 1](boo1.md)
 
-[boo 2](./boo2.md)
-
-[boo 3](inner/boo3.md)
-
-[boo 4](./inner/boo4.md)
-
-[boo 5](../boo5.md)
 ---
 ### **Machine Learning**
 
@@ -73,7 +71,7 @@ You can click the Preview link to take a look at your changes.
 > > - #### **[Random Forest Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Random%20Forest%20Classification)**
 > > - #### **[K-Nearest Neighbors (K-NN):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/K-Nearest%20Neighbors%20(K-NN))**
 
-- #### **[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering){:target="_blank"}**
+- #### **[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering)**
 > > - #### **[K means Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering/K%20means%20Clustering)**
 > > - #### **[Hierarchical Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering/Hierarchical%20Clustering)**
 
@@ -85,26 +83,21 @@ You can click the Preview link to take a look at your changes.
 - #### **[Image Classification:](http://github.com)**
 - #### **[Cats vs Dogs:](http://github.com)**
 - #### **[Dog'S Breed Identification:](http://github.com)**
+- #### **[Image Recognition:](http://github.com)**
+- #### **[Dog'S Breed Identification:](http://github.com)**
 - #### **[MNIST Digit Recognition:](http://github.com)**
 - #### **[Traffic sign classification:](http://github.com)**
 - #### **[Image Captioning:](http://github.com)**
 - #### **[Wine quality prediction:](http://github.com)**
-- #### **[Identificarion of duplicate Questions:](http://github.com)**
-- #### **[Neural Machine Translation:](http://github.com)**
-- #### **[Text Summarization:](http://github.com)**
-- #### **[Question answering:](http://github.com)**
-- #### **[Chatbot:](http://github.com)**
 
 ### **Natural Language Processing**
-- #### **[Spam detection:](http://github.com)**
-- #### **[Text classification:](http://github.com)**
-- #### **[Sentiment analysis:](http://github.com)**
-- #### **[Autocorrection:](http://github.com)**
-- #### **[Autocompletion:](http://github.com)**
-- #### **[Sentiment analysis with Deep Neural Network:](http://github.com)**
-- #### **[Named Entity Recognition:](http://github.com)**
-- #### **[Identificarion of duplicate Questions:](http://github.com)**
-- #### **[Neural Machine Translation:](http://github.com)**
-- #### **[Text Summarization:](http://github.com)**
-- #### **[Question answering:](http://github.com)**
-- #### **[Chatbot:](http://github.com)**
+- #### **[Spam detection:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Spam%20detection)**
+- #### **[Text classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Text%20classification)**
+- #### **[Sentiment analysis:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Sentiment%20analysis)**
+- #### **[Autocorrection:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Autocorrection)**
+- #### **[Autocompletion:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Autocompletion)**
+- #### **[Named Entity Recognition:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Named%20Entity%20Recognition)**
+- #### **[Identificarion of duplicate Questions:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Identificarion%20of%20duplicate%20Questions)**
+- #### **[Neural Machine Translation:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Neural%20Machine%20Translation)**
+- #### **[Text Summarization:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Text%20Summarization)**
+- #### **[Chatbot:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Text%20Summarization/Chatbot)**

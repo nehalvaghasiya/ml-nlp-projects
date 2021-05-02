@@ -22,7 +22,7 @@ You can click the Preview link to take a look at your changes.
 │   │   ├──[Support Vector Regression (SVR):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR))
 │   │   ├──[Decision Tree Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression)
 │   │   └── style.css
-│   ├──[Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification)
+│   ├── - [Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification)
 │   │   ├── style.css
 │   │   ├── style.css
 │   │   ├── style.css
@@ -46,6 +46,15 @@ You can click the Preview link to take a look at your changes.
 │   ├── static
 │   └── templates
 ````
+[boo 1](boo1.md)
+
+[boo 2](./boo2.md)
+
+[boo 3](inner/boo3.md)
+
+[boo 4](./inner/boo4.md)
+
+[boo 5](../boo5.md)
 ---
 ### **Machine Learning**
 
@@ -64,7 +73,7 @@ You can click the Preview link to take a look at your changes.
 > > - #### **[Random Forest Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Random%20Forest%20Classification)**
 > > - #### **[K-Nearest Neighbors (K-NN):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/K-Nearest%20Neighbors%20(K-NN))**
 
-- #### **[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering)**
+- #### **[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering){:target="_blank"}**
 > > - #### **[K means Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering/K%20means%20Clustering)**
 > > - #### **[Hierarchical Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering/Hierarchical%20Clustering)**
 

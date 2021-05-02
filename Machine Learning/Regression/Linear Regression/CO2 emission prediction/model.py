@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 %matplotlib inline
 
-co2 =USAhousing = pd.read_csv('CO2 Emissions_Canada.csv')
+co2 = pd.read_csv('CO2 Emissions_Canada.csv')
 x = co2[['Engine Size(L)', 'Cylinders','Fuel Consumption Comb (L/100 km)']]
 y = co2['CO2 Emissions(g/km)']
 

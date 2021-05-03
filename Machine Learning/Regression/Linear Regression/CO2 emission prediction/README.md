@@ -5,9 +5,9 @@
 - Demo
 - Overview
 - Technical Aspect
+- Deployement on Virtual machine provided by google-collab with the help of flask-ngrok
 - Directory Tree
 - Setting up the Environment
-- Deployement on Virtual machine provided by google-collab with the help of flask-ngrok
 - Bug / Feature Request
 - Technologies Used
 - Team
@@ -24,6 +24,19 @@
 
 > 1. Training a Linear regression model.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(used to make the server accessible outside the runtime globally on HTTP).
+
+## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
+<img src="https://user-images.githubusercontent.com/78668871/116829747-e5e6e500-aba5-11eb-921a-6174e199bacf.png" width="500" align="right"/>
+- Google Colab provides a VM(virtual machine) so we cannot access the localhost(all it does it route it to our local machine’s localhost) as we do on our local machine when running a local web server. What we can do is expose it to a public URL using ngrok. 
+
+
+
+- Here comes the Python library flask-ngrok.
+- install flask-ngrok in google-collab and import run_with_ngrok. That's it.
+
+`!pip install flask-ngrok`
+
+`from flask_ngrok import run_with_ngrok`
 
 ## Directory Tree
 ```
@@ -51,22 +64,6 @@ To setup the environment (to run locally)
 - Navigate to the working directory  `cd CO2 emission prediction`
 - Install flask-ngrok for deployment `pip install flask-ngrok  `
 - Install the Python dependencies`pip install -r requirements.txt `
-
-
-
-## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
-<img src="https://user-images.githubusercontent.com/78668871/116829747-e5e6e500-aba5-11eb-921a-6174e199bacf.png" width="500" align="right"/>
-- Google Colab provides a VM(virtual machine) so we cannot access the localhost(all it does it route it to our local machine’s localhost) as we do on our local machine when running a local web server. What we can do is expose it to a public URL using ngrok. 
-
-
-
-- Here comes the Python library flask-ngrok.
-- install flask-ngrok in google-collab and import run_with_ngrok. That's it.
-
-`!pip install flask-ngrok`
-
-`from flask_ngrok import run_with_ngrok`
-
 
 
 

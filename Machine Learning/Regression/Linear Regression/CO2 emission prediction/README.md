@@ -23,7 +23,7 @@
 - This project is divided into two part:
 
 > 1. Training a Linear regression model.
-> 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(used to make the server accessible outside the runtime globally on HTTP).
+> 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
 <img src="https://user-images.githubusercontent.com/78668871/116829747-e5e6e500-aba5-11eb-921a-6174e199bacf.png" width="500" align="right"/>

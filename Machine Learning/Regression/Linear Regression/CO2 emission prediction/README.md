@@ -34,7 +34,7 @@
 
 
 - Here comes the Python library flask-ngrok.
-- install flask-ngrok in google-collab and import run_with_ngrok. That's it.
+- Install flask-ngrok in google-collab and import run_with_ngrok. That's it.
 
 `!pip install flask-ngrok`
 

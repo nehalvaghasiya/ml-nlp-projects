@@ -66,6 +66,7 @@
 > - [x] Upload it to the drive that is being used with google-collab
 > - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
+> - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
 
 -To setup the environment (to run locally)
@@ -78,6 +79,9 @@
 > - [x] Install matplotlib   `pip install matplotlib`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] Install the Python dependencies  `pip install -r requirements.txt `
+> - [x] Create Machine learning model by running `python model.py `
+> - [x] To start Flask API, run  `python app.py `
+> - [x] Flask will run on port 5000, Navigate to URL `http://localhost:5000` 
 
 
 

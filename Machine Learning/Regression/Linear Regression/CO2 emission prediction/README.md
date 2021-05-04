@@ -69,7 +69,7 @@
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
 
--To setup the environment (to run locally)
+- To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
 > - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `

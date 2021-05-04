@@ -19,7 +19,7 @@
 
 
 ## Overview
-- This is a simple Linear regresion model. The [trained model](https://www.example.com) takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
 
 ## Technical Aspect
 - This project is divided into two part:
@@ -59,7 +59,16 @@
 ````
 
 ## Setting up the Environment
-- To setup the environment (to run locally)
+- To setup the environment (to run globally) - Recommended
+
+> - [x] Open google collab and mount it on your google drive
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Upload it to the drive that is being used with google-collab
+> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
+
+
+-To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
 > - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
@@ -70,12 +79,7 @@
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] Install the Python dependencies  `pip install -r requirements.txt `
 
-- To setup the environment (to run globally)
-> - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Make a directory of repo in drive as shown in directory tree 
-> - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
-> - [x] Run the file "" to train and test the model, use the model parameters for deployment in ""
+
 
 
 

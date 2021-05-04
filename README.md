@@ -37,6 +37,7 @@ You can click the Preview link to take a look at your changes.
 │   ├── Image Classification
 │   ├── Cats vs Dogs
 │   ├── Dog'S Breed Identification
+│   ├── Fashion MNIST
 │   ├── MNIST Digit Recognition
 │   ├── Traffic sign classification
 │   ├── Image Captioning

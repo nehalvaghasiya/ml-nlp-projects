@@ -59,13 +59,16 @@
 ````
 
 ## Setting up the Environment
-To setup the environment (to run locally)
+- To setup the environment (to run locally)
 
-- Install pip and Python 3
-- Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-- Navigate to the working directory  `cd CO2 emission prediction`
-- Install flask-ngrok for deployment `pip install flask-ngrok  `
-- Install the Python dependencies`pip install -r requirements.txt `
+- [x] Install pip and Python 3
+- [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+- [x] Navigate to the working directory  `cd CO2 emission prediction`
+- [x] Install pandas  `pip install pandas`
+- [x] Install numpy   `pip install numpy`
+- [x] Install matplotlib   `pip install matplotlib`
+- [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
+- [x] Install the Python dependencies  `pip install -r requirements.txt `
 
 
 

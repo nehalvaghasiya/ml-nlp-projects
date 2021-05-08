@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @nehalvaghasiya
 - 👀 I’m interested in AI, ML, DL, NLP Projects specifically.
-- 🌱 I’m currently learning working on the projects of NLP.
-- 💞️ I’m looking to collaborate on Data Science.
+- 🌱 I’m currently learning working on the projects of ML, NLP.
+- 💞️ I love to bring NLP, ML projects "from Jupyter to production".
 - 📫 You can reach me at [nehal.vaghasiya777@gmail.com](mailto:nehal.vaghsiya777@gmail.com)
 
 <!---

@@ -81,15 +81,11 @@ You can click the Preview link to take a look at your changes.
 
 
 ### **Deep Learning**
-- #### **[Image Classification:](http://github.com)**
-- #### **[Cats vs Dogs:](http://github.com)**
-- #### **[Dog'S Breed Identification:](http://github.com)**
-- #### **[Image Recognition:](http://github.com)**
-- #### **[Dog'S Breed Identification:](http://github.com)**
-- #### **[MNIST Digit Recognition:](http://github.com)**
-- #### **[Traffic sign classification:](http://github.com)**
-- #### **[Image Captioning:](http://github.com)**
-- #### **[Wine quality prediction:](http://github.com)**
+- #### **[Covid-19 Image Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Covid-19%20Image%20Classification)**
+- #### **[Christmas Multiclass Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Christmas%20Multiclass%20Classification)**
+- #### **[Traffic sign classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Traffic%20Sign%20Classification)**
+- #### **[Image Captioning:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Image%20Captioning)**
+
 
 ### **Natural Language Processing**
 - #### **[Spam detection:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Spam%20detection)**

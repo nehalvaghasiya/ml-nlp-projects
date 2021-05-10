@@ -15,44 +15,7 @@ You can click the Preview link to take a look at your changes.
 
 ## **Contents**
 ---
-```
-├── Machine Learning
-│   ├── Regression
-│   │   ├── Linear Regression
-│   │   ├── Support Vector Regression (SVR)
-│   │   ├── Decision Tree Regression
-│   │   └── Random Forest Regression:
-│   ├── Classification
-│   │   ├── Logistic Regression
-│   │   ├── Naive Bayes
-│   │   ├── Support Vector Machine (SVM)
-│   │   ├── Kernel Support Vector Machine (K-SVM)
-│   │   ├── Decision Tree Classification
-│   │   ├── Random Forest Classification
-│   │   └── K-Nearest Neighbors (K-NN)
-│   └── Clustering
-│   │   ├── K means Clustering
-│   │   └── Hierarchical Clustering
-├── Deep Learning
-│   ├── Image Classification
-│   ├── Cats vs Dogs
-│   ├── Dog'S Breed Identification
-│   ├── Fashion MNIST
-│   ├── MNIST Digit Recognition
-│   ├── Traffic sign classification
-│   ├── Image Captioning
-│   └── 
-├── Natural Language Processing
-│   ├── Spam detection
-│   ├── Text classification
-│   ├── Sentiment analysis
-│   ├── Autocorrection
-│   ├── Autocompletion
-│   ├── Named Entity Recognition
-│   ├── Identificarion of duplicate Questions
-│   ├── Neural Machine Translation
-│   └── Text Summarization
-````
+
 
 ---
 ### **Machine Learning**

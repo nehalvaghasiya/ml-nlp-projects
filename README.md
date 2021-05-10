@@ -16,8 +16,6 @@ You can click the Preview link to take a look at your changes.
 ## **Contents**
 ---
 
-
----
 ### **Machine Learning**
 
 - #### **[Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression)**

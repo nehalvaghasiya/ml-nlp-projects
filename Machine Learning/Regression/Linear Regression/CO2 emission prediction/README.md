@@ -10,8 +10,7 @@
 - Setting up the Environment
 - Bug / Feature Request
 - Technologies Used
-- Team
-- Credits
+
 
 ## Demo
 <img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>

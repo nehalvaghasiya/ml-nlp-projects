@@ -18,7 +18,7 @@
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a simple Linear regresion model. The trained model takes four parameters (Avg. session length, Time on app, Time on Website, Length of Membership) as input and predict the yearly amount spent by customer based on that.
 
 ## Technical Aspect
 - This project is divided into two part:

@@ -20,19 +20,65 @@ You can click the Preview link to take a look at your changes.
 - #### **[Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression)**
 > > - #### **[Linear Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression)**   A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) to predict the best price to sell the house.
 [Ecommerce Customers](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/Ecommerce%20Customers)
+
+
 > > - #### **[Support Vector Regression (SVR):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR))**
 
+A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR)/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR)/House%20Price%20Prediction) to predict the best price to sell the house.
+[Ecommerce Customers](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR)/Ecommerce%20customers)
+
 > > - #### **[Decision Tree Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression)**
+> > 
+
+A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression/House%20Price%20Prediction) to predict the best price to sell the house.
+[Ecommerce Customers](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression/Ecommerce%20customers)
+
+
+
 > > - #### **[Random Forest Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression)**
+> > 
+
+A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression/House%20Price%20Prediction) to predict the best price to sell the house.
+[Ecommerce Customers](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression/Ecommerce%20customers)
+
+
 
 - #### **[Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification)**
+
 > > - #### **[Logistic Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Logistic%20Regression)**
+
+[click_on_Ad_or_not](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Logistic%20Regression/click_on_Ad_or_not)
+[Kyphosis project](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Logistic%20Regression/Kyphosis%20project)
+
 > > - #### **[Naive Bayes:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Naive%20Bayes)**
+> > 
+[click_on_Ad_or_not](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Naive%20Bayes/click_on_Ad_or_not)
+[Kyphosis project](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Naive%20Bayes/Kyphosis%20project)
+
 > > - #### **[Support Vector Machine (SVM):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Support%20Vector%20Machine%20(SVM))**
+> > 
+[click_on_Ad_or_not](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Support%20Vector%20Machine%20(SVM)/click_on_Ad_or_not)
+[Kyphosis project](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Support%20Vector%20Machine%20(SVM)/Kyphosis%20project)
+
 > > - #### **[Kernel Support Vector Machine (K-SVM):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Kernel%20SVM)**
+> > 
+[click_on_Ad_or_not](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Kernel%20SVM/click_on_Ad_or_not)
+[Kyphosis project](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Kernel%20SVM/Kyphosis%20project)
+
 > > - #### **[Decision Tree Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Decision%20Tree%20Classification)**
+
+[click_on_Ad_or_not](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Decision%20Tree%20Classification/click_on_Ad_or_not)
+[Kyphosis project](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Decision%20Tree%20Classification/Kyphosis%20project)
+
 > > - #### **[Random Forest Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Random%20Forest%20Classification)**
+> > 
+[click_on_Ad_or_not](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Random%20Forest%20Classification/click_on_Ad_or_not)
+[Kyphosis project](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Random%20Forest%20Classification/Kyphosis%20project)
+
 > > - #### **[K-Nearest Neighbors (K-NN):](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/K-Nearest%20Neighbors%20(K-NN))**
+> > 
+[click_on_Ad_or_not](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/K-Nearest%20Neighbors%20(K-NN)/click_on_Ad_or_not)
+[Kyphosis project](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/K-Nearest%20Neighbors%20(K-NN)/Kyphosis%20project)
 
 - #### **[Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering)**
 > > - #### **[K means Clustering:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering/K%20means%20Clustering)**

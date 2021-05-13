@@ -17,8 +17,35 @@ You can click the Preview link to take a look at your changes.
 
 ### **Machine Learning**
 
-- #### **[Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression)**
-> > - #### **[Linear Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression)**   A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) to predict the best price to sell the house.
+- #### **[Regression:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression)** 
+
+To understand basic concept behind regression, three (end to end) projects has been implemented
+
+  
+<table>
+<tr>
+<th>  <h3><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression">Regression</a>  </h3> </th>
+
+</tr>
+<tr>
+
+<td>
+  
+c
+
+| <h3 style="font-weight: bold;"><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression">Linear Regression</a> </h3>| <h3 style="font-weight: bold;"><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression">Linear Regression</a> </h3>| <h3 style="font-weight: bold;"><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression">Linear Regression</a> </h3>| <h3 style="font-weight: bold;"><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression">Linear Regression</a> </h3>|
+|--|--|--|--|
+| </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction">CO2 emission prediction</a> </i> </h6> | </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/Ecommerce%20Customers">Ecommerce Customers</a> </i> </h6> | </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction">House Price Prediction</a> </i> </h6> |
+
+
+</td></tr> </table>
+<th> <h3><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification">Classification</a> </h3> </th>
+<th> <h3><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering">Clustering</a> </h3> </th>
+
+
+> > - ####  [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) | [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) | 
+
+`- [x] - [x]  A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) to predict the best price to sell the house.
 [Ecommerce Customers](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/Ecommerce%20Customers)
 
 

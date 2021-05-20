@@ -44,9 +44,9 @@ To understand basic concept behind regression, three (end to end) projects has b
 <th> <h3><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Clustering">Clustering</a> </h3> </th>
 
 
-> > - ####  [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) | [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) | 
+> > - ####  [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) | [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) |
 
-`- [x] - [x]  A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) to predict the best price to sell the house.
+`- [x] - [x]  A Machine learning model to predict the important data of two projects namely [CO2 emissions prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction) (which predicts the co2 emissions(g/km) based on Engine size, number of cylinders, fuel comsumption), and [House Price prediction](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction) to predict the best price to sell the house
 [Ecommerce Customers](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/Ecommerce%20Customers)
 
 

@@ -21,6 +21,10 @@ You can click the Preview link to take a look at your changes.
 
 To understand basic concept behind regression, three (end to end) projects has been implemented
 
+</h1><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression">Linear Regression:</a>  </h1> </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR)/CO2%20emission%20prediction">CO2 emission prediction</a> </i> </h6> | </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression/CO2%20emission%20prediction">CO2 emission prediction</a> </i> </h6> | </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression/CO2%20emission%20prediction">CO2 emission prediction</a> </i> </h6> |
+
+</h6><a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression">Linear Regression:</a>  </h6> </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR)/CO2%20emission%20prediction">CO2 emission prediction</a> </i> </h6> | </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Decision%20Tree%20Regression/CO2%20emission%20prediction">CO2 emission prediction</a> </i> </h6> | </h6> <i> <a href="https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression/CO2%20emission%20prediction">CO2 emission prediction</a> </i> </h6> |
+
   
 <table>
 <tr>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction of ad being clicked or not</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+    <div>
+        <h1>Predict whether customer will click on an ad or not</h1>
+        <h3>Enter the values</h3>
+        
+        <form action="{{ url_for('predict')}}"method="post">
+            <input type="text" name="Daily Time Spent on Site" placeholder="Daily Time Spent on Site" required="required" style="width: 500px;" />
+            <br>
+            <input type="text" name="Age" placeholder="Age" required="required" style="width: 500px;" />
+            <br>
+            <input type="text" name="Area Income" placeholder="Area Income" required="required" style="width: 500px;" />
+            <br>
+            <input type="text" name="Daily Internet Usage" placeholder="Daily Internet Usage" required="required" style="width: 500px;" />
+            <br>
+            <input type="text" name="Male" placeholder="Male" required="required" style="width: 500px;" />
+            <br>
+            <br>
+            
+            <button type="submit" class="btn">Predict</button>
+        </form>
+        <br>
+        <br>
+        {{ data }}
+
+    </div>
+</body>
+</html>

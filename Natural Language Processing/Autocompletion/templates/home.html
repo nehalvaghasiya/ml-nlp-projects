@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-complete</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+    <div>
+        <h1>Next word Prediction</h1>
+        <h3>Enter the sentence</h3>
+        
+        <form action="{{ url_for('predict')}}"method="post">
+          <div class="col-50">
+            <input type="text" name="previous_tokens" placeholder="text" required="required" style="width: 500px;" />
+          
+            <br>
+            <input type="text" name="start_with" placeholder= "Next word starts with... (optional)"  style="width: 500px;" /><br>
+            <br>
+          
+
+          
+            <button type="submit" class="btn">Predict</button>
+          </div>
+        </form>
+        <br>
+        <br>
+        <div class="col-50">
+          {{ data }}
+        </div>
+
+    </div>
+</body>
+</html>

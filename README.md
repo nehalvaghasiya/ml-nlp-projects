@@ -16,7 +16,9 @@ You can click the Preview link to take a look at your changes.
 ## **Contents**
 
 
-### **Natural Language Processing**
+### **[Natural Language Processing](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing)**
+
+
 - #### **[Spam detection:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Spam%20detection)**  A classification model to detect whether a text message is spam or not (aka Ham) using simple logistic regression in PyTorch.
 - #### **[Sentiment analysis:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Sentiment%20analysis)** A classification model to predict the sentiment of text (Positive or Negative) using RNN, LSTM deep learning models in PyTorch. Used dropout to get rid of Overfitting.
 - #### **[Autocorrection:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Autocorrection)** A Probabilistic language model with NLP to implement an auto-correct system with the help of minimum edit distance algorithm. (for example, if you type the word 'dys', chances are very high that you meant to write 'days').
@@ -28,7 +30,9 @@ You can click the Preview link to take a look at your changes.
 
 
 
-### **Deep Learning**
+
+### **[Deep Learning](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning)**
+
 - #### **[Covid-19 Image Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Covid-19%20Image%20Classification)** An Image classsification model to classify the input image in three categories (If lungs are Normal, infected due to covid, or viral Pneumonia) using pretrained model of ResNet34.
 - #### **[Christmas Multiclass Classification:](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Christmas%20Multiclass%20Classification)** A multiclass Image classification model to classify the images in Nine categories (Christmas Cookies, Christmas Presents, Christmas Tree, Fireworks, Penguin, Reindeer, Santa, Snowman) using AlexNet pretrained model.
 
@@ -36,7 +40,7 @@ You can click the Preview link to take a look at your changes.
 
 
 
-### **Machine Learning**
+### **[Machine Learning](https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning)**
 
 <table>
 <tr>

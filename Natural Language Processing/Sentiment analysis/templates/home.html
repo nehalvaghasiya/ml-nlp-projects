@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+    <div>
+      <br>
+        <h1>Sentiment Analysis</h1>
+        <h3>Enter the review</h3>
+        
+        <form action="{{ url_for('predict')}}"method="post">
+           
+            <br>
+             <textarea id="subject" name="subject" placeholder="Write something.." style="height:500px width: 1500px;"></textarea>
+            <br>
+            <button type="submit" class="btn">Predict</button>
+        </form>
+        <br>
+        <br>
+        {{ data }}
+
+    </div>
+</body>
+</html>

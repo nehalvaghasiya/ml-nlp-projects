@@ -1,5 +1,5 @@
 
-# CO2 emission prediction
+# House Price Prediction
 ## Table of Content
 
 - Demo
@@ -21,7 +21,7 @@
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a simple Linear regresion model. The trained model takes five parameters (Avg. Area Income, Avg. Area House Age, Avg. Area Number of Rooms, Avg. Area Number of Bedrooms, Area Population) as input and predict the price($) based on that.
 
 ## Technical Aspect
 - This project is divided into two part:

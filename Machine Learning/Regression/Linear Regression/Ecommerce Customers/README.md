@@ -46,24 +46,24 @@
 │   │   ├── style.css
 ├── templates
 │   ├── home.html
-├── CO2 Emissions_Canada.csv
+├── Ecommerce Customers
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── Ecommerce Customers.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-└── co2_model.pkl
+└── customer_model.pkl
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/Ecommerce%20Customers `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"Ecommerce Customers.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -71,8 +71,8 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Navigate to the working directory  `cd CO2 emission prediction`
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/Ecommerce%20Customers `
+> - [x] Navigate to the working directory  `cd Ecommerce Customers`
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`

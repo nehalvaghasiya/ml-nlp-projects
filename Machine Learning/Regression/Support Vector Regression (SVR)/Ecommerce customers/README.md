@@ -1,6 +1,5 @@
 
-
-# CO2 emission prediction
+# Ecommerce Customers
 ## Table of Content
 
 - Demo
@@ -14,12 +13,13 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/122096999-75bbb800-ce0f-11eb-9850-4738d9163917.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122097005-77857b80-ce0f-11eb-81f2-33957a9a6e95.PNG" width="450"/> 
+
 
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a simple Linear regresion model. The trained model takes four parameters (Avg. session length, Time on app, Time on Website, Length of Membership) as input and predict the yearly amount spent by customer based on that.
 
 ## Technical Aspect
 - This project is divided into two part:

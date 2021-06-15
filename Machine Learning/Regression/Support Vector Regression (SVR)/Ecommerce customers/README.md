@@ -17,12 +17,12 @@
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes four parameters (Avg. session length, Time on app, Time on Website, Length of Membership) as input and predict the yearly amount spent by customer based on that.
+- This is a Support Vector Regression (SVR) model. The trained model takes four parameters (Avg. session length, Time on app, Time on Website, Length of Membership) as input and predict the yearly amount spent by customer based on that.
 
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a Linear regression model.
+> 1. Training a Support Vector Regression (SVR) model.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 

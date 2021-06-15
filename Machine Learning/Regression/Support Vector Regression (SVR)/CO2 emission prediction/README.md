@@ -65,7 +65,7 @@
 > - [x] Open google collab and mount it on your google drive
 > - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Support%20Vector%20Regression%20(SVR)/CO2%20emission%20prediction `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"co2_emission_SVR.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 

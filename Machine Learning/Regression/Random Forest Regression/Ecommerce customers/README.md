@@ -1,6 +1,5 @@
 
-
-# CO2 emission prediction
+# Ecommerce Customers
 ## Table of Content
 
 - Demo
@@ -14,17 +13,17 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/118049697-6b288180-b37e-11eb-8c6b-f27ceec75455.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/118049692-682d9100-b37e-11eb-881c-e88d22cc5f2c.PNG" width="450"/> 
 
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a Random Forest Regression model. The trained model takes four parameters (Avg. session length, Time on app, Time on Website, Length of Membership) as input and predict the yearly amount spent by customer based on that.
 
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a Linear regression model.
+> 1. Training a Random Forest Regression model.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
@@ -47,24 +46,24 @@
 │   │   ├── style.css
 ├── templates
 │   ├── home.html
-├── CO2 Emissions_Canada.csv
+├── Ecommerce Customers
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── Ecommerce Customers.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-└── co2_model.pkl
+└── customer_model.pkl
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression/Ecommerce%20customers `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"Ecommerce Customers.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -72,8 +71,8 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Navigate to the working directory  `cd CO2 emission prediction`
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Random%20Forest%20Regression/Ecommerce%20customers `
+> - [x] Navigate to the working directory  `cd Ecommerce Customers`
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`
@@ -93,4 +92,3 @@
 
 ## Technologies Used
 <img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/>
-

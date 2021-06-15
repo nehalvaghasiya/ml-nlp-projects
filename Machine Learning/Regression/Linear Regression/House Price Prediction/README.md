@@ -13,7 +13,10 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/122066114-be18ad00-cdf2-11eb-9568-071af2d28dcc.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122066122-c1139d80-cdf2-11eb-8a14-f255449e2abb.PNG" width="450"/>
+
+
+
 
 
 
@@ -41,29 +44,26 @@
 
 ## Directory Tree
 ```
-├── static
-│   ├── styles
-│   │   ├── style.css
 ├── templates
-│   ├── home.html
-├── CO2 Emissions_Canada.csv
+│   ├── after.html
+├── USA_Housing.csv
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── House Price Prediction.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-└── co2_model.pkl
+└── model.pkl
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"House Price Prediction.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -71,8 +71,8 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Navigate to the working directory  `cd CO2 emission prediction`
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/House%20Price%20Prediction `
+> - [x] Navigate to the working directory  `cd House Price Prediction`
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`
@@ -91,4 +91,4 @@
 - If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
-<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/>
+<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/>

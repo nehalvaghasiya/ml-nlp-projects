@@ -20,7 +20,7 @@
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a Support Vector Regression (SVR) model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
 
 ## Technical Aspect
 - This project is divided into two part:
@@ -51,7 +51,7 @@
 ├── CO2 Emissions_Canada.csv
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── co2_emission_SVR.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile

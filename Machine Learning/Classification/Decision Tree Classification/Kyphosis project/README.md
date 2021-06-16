@@ -1,6 +1,6 @@
 
 
-# CO2 emission prediction
+# Kyphosis project
 ## Table of Content
 
 - Demo
@@ -14,17 +14,18 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/122272319-b6cfcd00-cee0-11eb-87cc-f4b968646cc0.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122272327-b8999080-cee0-11eb-8edd-1f3008e08c60.PNG" width="450"/>
+
 
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a Decision Tree Classification model. The trained model takes three parameters (Age in months, the number of vertebrae involved, the number of the first (topmost) vertebra operated on) as input and predict whether a kyphosis (a type of deformation) was present after the operation. 
 
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a Linear regression model.
+> 1. Training a Decision Tree Classification model.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
@@ -47,24 +48,24 @@
 │   │   ├── style.css
 ├── templates
 │   ├── home.html
-├── CO2 Emissions_Canada.csv
+├── kyphosis.csv
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── Kyphosis_detection.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-└── co2_model.pkl
+└── kyphosis_dt_model.pkl
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Decision%20Tree%20Classification/Kyphosis%20project `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"Kyphosis_detection.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -72,8 +73,8 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Navigate to the working directory  `cd CO2 emission prediction`
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Classification/Decision%20Tree%20Classification/Kyphosis%20project `
+> - [x] Navigate to the working directory  `cd Kyphosis project`
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`

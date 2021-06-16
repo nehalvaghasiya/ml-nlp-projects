@@ -1,6 +1,6 @@
 
 
-# CO2 emission prediction
+# Spam detection
 ## Table of Content
 
 - Demo
@@ -14,17 +14,18 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/122276549-2fd12380-cee5-11eb-92f2-e3802ad23679.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122276558-31025080-cee5-11eb-8133-85a6c64456c7.PNG" width="450"/>
+
 
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- It is necessary to detect spam in internet service providers (ISPs) like Gmail, Yahoo and Outlook. This algorithm will detct the spam using logistic regression in PyTorch.
 
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a Linear regression model.
+> 1. Training a Logistic regression algorithm in PyTorch.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
@@ -47,24 +48,25 @@
 │   │   ├── style.css
 ├── templates
 │   ├── home.html
-├── CO2 Emissions_Canada.csv
+├── SMSSpamCollection
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── Spam Classification using Pytorch.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-└── co2_model.pkl
+├── vectorizer.pkl
+└── model.pth
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Spam%20detection `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"Spam Classification using Pytorch.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -72,8 +74,8 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Navigate to the working directory  `cd CO2 emission prediction`
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Spam%20detection `
+> - [x] Navigate to the working directory  `cd Spam detection`
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`
@@ -92,6 +94,9 @@
 - If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
-<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/>
+<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/122309091-f2cd5700-cf0d-11eb-87d9-ecd5f31e9766.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/122309263-48096880-cf0e-11eb-98e6-722d3781fdba.png" width="125"/>
+
+
+
 
 

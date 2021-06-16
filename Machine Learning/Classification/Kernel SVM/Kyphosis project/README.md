@@ -56,7 +56,7 @@
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-└── kyphosis_logistic_model.pkl
+└── kyphosis_kernel_svm_model.pkl
 ````
 
 ## Setting up the Environment

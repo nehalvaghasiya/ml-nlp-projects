@@ -14,13 +14,13 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/122208205-4f475c80-cea3-11eb-9e4c-e359ad065a27.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122208209-50788980-cea3-11eb-9382-9d08e6376c3a.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/122269489-8e929f00-cedd-11eb-89d1-b28134f52c85.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122269506-93575300-cedd-11eb-8c4f-4ac55d7fefb6.PNG" width="450"/>
 
 
 
 
 ## Overview
-- This is a Logistic Regression model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- This is a Logistic Regression model. The trained model takes three parameters (Age in months, the number of vertebrae involved, the number of the first (topmost) vertebra operated on) as input and predict whether a kyphosis (a type of deformation) was present after the operation. 
 
 ## Technical Aspect
 - This project is divided into two part:

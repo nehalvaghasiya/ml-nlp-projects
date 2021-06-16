@@ -20,12 +20,12 @@
 
 
 ## Overview
-- This is a Logistic Regression model. The trained model takes five parameters (Daily Time Spent on Site, Age, Area Income, Daily Internet Usage, Male(if its make then enter 1, otherwise 0)) as input and predict whether user has clicked on Ad or not.
+- This is a Decision Tree Classification model. The trained model takes five parameters (Daily Time Spent on Site, Age, Area Income, Daily Internet Usage, Male(if its make then enter 1, otherwise 0)) as input and predict whether user has clicked on Ad or not.
 
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a Logistic Regression model.
+> 1. Training a Decision Tree Classification model.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 

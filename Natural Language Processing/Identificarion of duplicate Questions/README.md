@@ -1,7 +1,6 @@
 
 
-
-# CO2 emission prediction
+# Sentiment analysis
 ## Table of Content
 
 - Demo
@@ -15,17 +14,19 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/122310244-3b860f80-cf10-11eb-80c2-7fb774f29f1a.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122310236-3628c500-cf10-11eb-9d33-78cefedb1dde.PNG" width="450"/> 
+
 
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- It is necessary to identify the duplicate questions on the websites like Quora, StackOverflow. This Project creates a model which detects the same questions using Deep learning techniques like Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM).
+
 
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a Linear regression model.
+> 1. Training a classification model using deep learning in PyTorch.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
@@ -48,24 +49,25 @@
 │   │   ├── style.css
 ├── templates
 │   ├── home.html
-├── CO2 Emissions_Canada.csv
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── identification_of_duplicate_question_using_deep_learning.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-└── co2_model.pkl
+├── tokenizer.pickle
+└── sentiment_model.pth
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Sentiment%20analysis `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x]  Download the IMDB Dataset of Movie Reviews from [here](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+> - [x] Run the file `"sentiment analysis using deep learning - Pytorch.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -73,8 +75,9 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Navigate to the working directory  `cd CO2 emission prediction`
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Sentiment%20analysis `
+> - [x] Navigate to the working directory  `cd Sentiment analysis`
+> - [x]  Download the IMDB Dataset of Movie Reviews from [here](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`
@@ -93,5 +96,9 @@
 - If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
-<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/>
+<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/122309091-f2cd5700-cf0d-11eb-87d9-ecd5f31e9766.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/122309263-48096880-cf0e-11eb-98e6-722d3781fdba.png" width="125"/>
+
+
+
+
 

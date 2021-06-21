@@ -14,7 +14,7 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/122310244-3b860f80-cf10-11eb-80c2-7fb774f29f1a.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122310236-3628c500-cf10-11eb-9d33-78cefedb1dde.PNG" width="450"/> 
+<img src="https://user-images.githubusercontent.com/78668871/122802445-a85d2900-d2c5-11eb-8cdd-b8a804e784a8.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/122802458-aabf8300-d2c5-11eb-9cea-83d7ecf0e0cf.PNG" width="450"/> 
 
 
 
@@ -26,7 +26,7 @@
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a classification model using deep learning in PyTorch.
+> 1. Training a classification model using deep learning in keras.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
@@ -49,6 +49,7 @@
 │   │   ├── style.css
 ├── templates
 │   ├── home.html
+├── train.csv
 ├── app.py
 ├── model.py
 ├── identification_of_duplicate_question_using_deep_learning.ipynb
@@ -56,18 +57,17 @@
 ├── requirements.txt
 ├── Procfile
 ├── README.md
-├── tokenizer.pickle
-└── sentiment_model.pth
+└── tokenizer.pickle
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Sentiment%20analysis `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Identificarion%20of%20duplicate%20Questions `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x]  Download the IMDB Dataset of Movie Reviews from [here](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
-> - [x] Run the file `"sentiment analysis using deep learning - Pytorch.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Download the Dataset of Quora Question Pairs from [here](https://www.kaggle.com/c/quora-question-pairs/data?select=train.csv.zip)
+> - [x] Run the file `"identification_of_duplicate_question_using_deep_learning.ipynb"` to train and test the model, use the model parameters and tokenizer for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -75,12 +75,14 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Sentiment%20analysis `
-> - [x] Navigate to the working directory  `cd Sentiment analysis`
-> - [x]  Download the IMDB Dataset of Movie Reviews from [here](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Identificarion%20of%20duplicate%20Questions `
+> - [x] Navigate to the working directory  `cd Identificarion of duplicate Questions`
+> - [x] Download the Dataset of Quora Question Pairs from [here](https://www.kaggle.com/c/quora-question-pairs/data?select=train.csv.zip)
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`
+> - [x] Install keras   `pip install keras`
+> - [x] Install scikit-learn   `pip install sklearn`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] Install the Python dependencies  `pip install -r requirements.txt `
 > - [x] Create Machine learning model by running `python model.py `
@@ -96,7 +98,8 @@
 - If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
-<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/122309091-f2cd5700-cf0d-11eb-87d9-ecd5f31e9766.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/122309263-48096880-cf0e-11eb-98e6-722d3781fdba.png" width="125"/>
+<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/122805037-df810980-d2c8-11eb-9ad4-9a8c965b919b.png" width="125"/>
+
 
 
 

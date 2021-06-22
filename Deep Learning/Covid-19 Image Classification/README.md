@@ -33,6 +33,7 @@
 
 > - [x] Open google collab and mount it on your google drive
 > - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Covid-19%20Image%20Classification `
+> - [x] For dataset, send a note over [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new)
 > - [x] Upload it to the drive that is being used with google-collab
 > - [x] Run the file `"Covid_19_Image_classification.ipynb"` to train and test the model
 
@@ -42,6 +43,7 @@
 > - [x] Install pip and Python 3
 > - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Deep%20Learning/Covid-19%20Image%20Classification `
 > - [x] Navigate to the working directory  `cd Covid-19 Image Classification`
+> - [x] For dataset, send a note over [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new)
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
 > - [x] Install matplotlib   `pip install matplotlib`

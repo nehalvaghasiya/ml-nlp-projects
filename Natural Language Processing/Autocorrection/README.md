@@ -1,6 +1,6 @@
 
 
-# Identificarion of duplicate Questions
+# Autocorrection
 
 ## Table of Content
 

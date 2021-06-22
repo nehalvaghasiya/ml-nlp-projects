@@ -1,6 +1,7 @@
 
 
-# Autocompletion
+# Identificarion of duplicate Questions
+
 ## Table of Content
 
 - Demo
@@ -14,17 +15,19 @@
 
 
 ## Demo
-<img src="https://user-images.githubusercontent.com/78668871/116970610-9513e100-acb8-11eb-8243-deed302aafdf.PNG" width="450"/> <img src="https://user-images.githubusercontent.com/78668871/116970609-947b4a80-acb8-11eb-8ef2-eba7d9c5262d.PNG" width="450"/>
+<img src="https://user-images.githubusercontent.com/78668871/122853857-298edd00-d313-11eb-9d52-2e477562eac4.PNG" width="300"/> <img src="https://user-images.githubusercontent.com/78668871/122853859-2b58a080-d313-11eb-9bdd-857a7b9173dc.PNG" width="300"/> <img src="https://user-images.githubusercontent.com/78668871/122853862-2dbafa80-d313-11eb-8067-fa372b796955.PNG" width="300"/> 
+
+
 
 
 
 ## Overview
-- This is a simple Linear regresion model. The trained model takes three parameters (Engine size, number of cylinders, fuel comsumption) as input and predict the co2 emissions(g/km) based on that.
+- Autocompletion using NLP is a Probabilistic language model which assigns the probability to a sequence of words, in a way that more likely sequences receive higher scores. (for example, if you type 'hey how are', then you can find a word 'you' that has the highest probability to match with the sentence 'hey how are'.).
 
 ## Technical Aspect
 - This project is divided into two part:
 
-> 1. Training a Linear regression model.
+> 1. Developing N-Gram based language model.
 > 2. Building and hosting a Flask web app on Virtual machine provided by google-collab with the help of flask-ngrok(to make the server accessible outside the runtime globally on HTTP).
 
 ## Deployement on Virtual machine provided by google-collab with the help of flask-ngrok 
@@ -47,24 +50,23 @@
 │   │   ├── style.css
 ├── templates
 │   ├── home.html
-├── CO2 Emissions_Canada.csv
+├── en_US.twitter.txt
 ├── app.py
 ├── model.py
-├── co2 emission linear regression.ipynb
+├── Auto-Complete.ipynb
 ├── deployment_with_flask_app.ipynb
 ├── requirements.txt
 ├── Procfile
-├── README.md
-└── co2_model.pkl
+└── README.md
 ````
 
 ## Setting up the Environment
 - To setup the environment (to run globally) - Recommended
 
 > - [x] Open google collab and mount it on your google drive
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Autocompletion `
 > - [x] Upload it to the drive that is being used with google-collab
-> - [x] Run the file `"co2 emission linear regression.ipynb"` to train and test the model, use the model parameters for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"Auto-Complete.ipynb"` to develop N-Gram based language model, use it for deployment in `"deployment_with_flask_app.ipynb"`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
@@ -72,11 +74,10 @@
 - To setup the environment (to run locally)
 
 > - [x] Install pip and Python 3
-> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Machine%20Learning/Regression/Linear%20Regression/CO2%20emission%20prediction `
-> - [x] Navigate to the working directory  `cd CO2 emission prediction`
+> - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Autocompletion `
+> - [x] Navigate to the working directory  `cd Autocompletion`
 > - [x] Install pandas  `pip install pandas`
 > - [x] Install numpy   `pip install numpy`
-> - [x] Install matplotlib   `pip install matplotlib`
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] Install the Python dependencies  `pip install -r requirements.txt `
 > - [x] Create Machine learning model by running `python model.py `
@@ -92,6 +93,10 @@
 - If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/nehalvaghasiya/Data-Science-Portfolio/issues/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
-<img src="https://user-images.githubusercontent.com/78668871/116827827-753acb00-ab9b-11eb-93fb-0aadf41d4ba8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/>
+<img src="https://user-images.githubusercontent.com/78668871/116829280-c8188080-aba3-11eb-936b-4f13999faa76.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829376-031ab400-aba4-11eb-8724-d81e2d6a4970.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/116829387-1463c080-aba4-11eb-9a08-f1595d2899a8.png" width="125"/> <img src="https://user-images.githubusercontent.com/78668871/121388288-a69d7800-c94b-11eb-9f40-35c4c7b81542.png" width="125"/> 
+
+
+
+
 
 

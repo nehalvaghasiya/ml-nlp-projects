@@ -68,7 +68,7 @@
 > - [x] Clone the repo `git clone https://github.com/nehalvaghasiya/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/Text%20Summarization `
 > - [x] Upload it to the drive that is being used with google-collab
 > - [x] The dataset will be the reviews of fine foods from Amozon. This is available [here](https://www.kaggle.com/snap/amazon-fine-food-reviews)
-> - [x] Run the file `"Text Summarization.ipynb"` to train and test the model, use the model parameters and tokenizer for deployment in `"deployment_with_flask_app.ipynb"`
+> - [x] Run the file `"Text Summarization.ipynb"` to train and test the model, use the model parameters and tokenizer for deployment in the same file.
 > - [x] Install flask-ngrok for deployment `pip install flask-ngrok  `
 > - [x] For Production deployment, a link will be generated. Navigate to URL which has ending `".ngrok.io"`
 
